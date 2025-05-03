@@ -9,6 +9,7 @@ A modern, visually stunning React.js website showcasing answers to 23 React-rela
 - 🔍 Interactive demos for each question
 - 📝 Syntax-highlighted code examples
 - 🎯 Progress tracking and navigation
+- 🌐 Deployed on GitHub Pages
 
 ## Tech Stack
 
