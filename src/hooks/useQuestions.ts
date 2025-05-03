@@ -1,11 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { demos } from '../components/demos';
-import VotingApp from '../components/demos/VotingApp';
-import TodoList from '../components/demos/TodoList';
-import TemperatureConverter from '../components/demos/TemperatureConverter';
-import PostReactions from '../components/demos/PostReactions';
-import { AnimatePresence, motion } from 'framer-motion';
-import { CheckIcon, TrashIcon } from '@heroicons/react/24/outline';
 
 export interface Question {
   id: number;

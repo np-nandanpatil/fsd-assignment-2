@@ -6,7 +6,7 @@ const AutoCounterDemo = () => {
   const [isRunning, setIsRunning] = useState(true);
 
   useEffect(() => {
-    let timer: NodeJS.Timeout;
+    let timer: ReturnType<typeof setTimeout>;
 
     if (isRunning && count < 10) {
       timer = setTimeout(() => {

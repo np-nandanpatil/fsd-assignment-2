@@ -13,8 +13,6 @@ const QuestionPage = () => {
     loading,
     questions,
     loadQuestion,
-    getNextQuestion,
-    getPreviousQuestion,
   } = useQuestions();
 
   useEffect(() => {
@@ -31,8 +29,6 @@ const QuestionPage = () => {
   }
 
   const progress = (currentQuestion.id / questions.length) * 100;
-  const nextQuestion = getNextQuestion(currentQuestion.id);
-  const prevQuestion = getPreviousQuestion(currentQuestion.id);
 
   const DemoComponent = currentQuestion.demoKey ? demos[currentQuestion.demoKey] : null;
 
